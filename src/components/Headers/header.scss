@@ -1,0 +1,105 @@
+.AXLNFKTHIK {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+  height: 12.6rem;
+  background-color: #fff;
+  border-bottom: 1px solid #cecece;
+  .DTXHJCTGBN {
+    display: flex;
+    justify-content: space-between;
+    height: 9.1rem;
+    align-items: center;
+    width: 120rem;
+    span,
+    a {
+      color: #1b365d;
+      font-size: 1.4rem;
+    }
+  }
+  span {
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: #1b365d;
+  }
+
+  .MOQOZDYZAZ {
+    align-items: center;
+  }
+  .VVZHBJNIDN,
+  .WQCDPKWIWU,
+  .MJGTCNSIIL {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 2rem;
+  }
+  .LFIIQGTJJQ {
+    display: flex;
+    span {
+      margin-left: 1rem;
+    }
+  }
+  .OAODGOZMIL {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    background-color: #e5eaef;
+    border: 0.2rem solid #e5eaef;
+    border-radius: 5rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-style: italic;
+    margin-left: 2rem;
+    cursor: pointer;
+  }
+  .NGQRTRIQQL {
+    border-radius: 2.5rem 0 0 2.5rem;
+  }
+  .LPVJNREHYA {
+    border-radius: 0 2.5rem 2.5rem 0;
+  }
+  .OAODGOZMIL {
+    .active {
+      span {
+        background-color: #fff;
+        opacity: 1;
+      }
+    }
+    span {
+      position: relative;
+      vertical-align: middle;
+      color: #1b365d;
+      font-weight: 700;
+      z-index: 3;
+      min-width: 10rem;
+      text-align: center;
+      -webkit-transition: opacity 0.3s ease-in-out;
+      transition: opacity 0.3s ease-in-out;
+      opacity: 0.5;
+      text-decoration: none;
+      padding: 0.6rem 0.5rem;
+      display: block;
+    }
+  }
+  .TJZIFBLZQV {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+    padding: 0.6rem 1.9rem;
+    margin-left: 2rem;
+    border: 0.2rem solid #e5eaef;
+    border-radius: 5rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: #1b365d;
+  }
+}

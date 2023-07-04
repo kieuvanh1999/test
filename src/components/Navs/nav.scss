@@ -1,0 +1,93 @@
+.BLUPFEPWZM {
+  width: 120rem;
+  margin: 0 auto;
+  padding: 0 !important;
+  border-radius: 1rem;
+  .container {
+    padding: 0;
+  }
+  .LZNJDIWQNG {
+    position: relative;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    -ms-flex-item-align: center;
+    align-self: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: space-evenly;
+    background-color: #ed1b2e;
+    border-radius: 0.8rem;
+    z-index: 4;
+    -webkit-transition: background-color 0.2s linear, width 0.5s linear,
+      border-radius 0.2s linear;
+    transition: background-color 0.2s linear, width 0.5s linear,
+      border-radius 0.2s linear;
+  }
+  .MSOADDWGHA {
+    position: relative;
+    float: left;
+    margin: 0 1rem;
+    font-size: 18px;
+    font-weight: 600;
+    height: 7rem;
+    // overflow: hidden;
+    .CIXRGLHEHM {
+      color: #000;
+    }
+    .show {
+      // top: 12.5rem;
+      // left: 0;
+      // display: flex;
+      // justify-content: center;
+      a {
+        width: 24rem;
+      }
+      a:hover {
+        color: #000 !important;
+        background: #fff;
+      }
+    }
+    a.show:first-child::after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 0.5rem;
+        background-color: #fff;
+        border-radius: 0.2rem 0.2rem 0 0;
+        -webkit-transition: width .5s ease;
+        transition: width .5s ease;
+        display: block !important;
+      }
+  }
+  .MSOADDWGHA:nth-child(3) .dropdown-menu,
+  .MSOADDWGHA:nth-child(4) .dropdown-menu,
+  .MSOADDWGHA:nth-child(5) .dropdown-menu {
+    display: none;
+  }
+  a {
+    font-size: 18px;
+    line-height: 2.8rem;
+    font-weight: 600;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 2.1rem 1rem 2rem;
+  }
+  a:hover {
+    color: #fff !important;
+  }
+  .dropdown-toggle::after {
+    display: none;
+  }
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link.show {
+    color: #fff;
+  }
+}
