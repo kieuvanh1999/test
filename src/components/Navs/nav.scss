@@ -52,19 +52,22 @@
         background: #fff;
       }
     }
-    a.show:first-child::after{
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 0;
-        height: 0.5rem;
-        background-color: #fff;
-        border-radius: 0.2rem 0.2rem 0 0;
-        -webkit-transition: width .5s ease;
-        transition: width .5s ease;
-        display: block !important;
-      }
+    .dropdown-toggle:first-child::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 0.5rem;
+      background-color: #fff;
+      border-radius: 0.2rem 0.2rem 0 0;
+      -webkit-transition: width 0.5s ease;
+      transition: width 0.5s ease;
+      display: block;
+    }
+    .dropdown-toggle.show:first-child::before {
+      width: 100%;
+    }
   }
   .MSOADDWGHA:nth-child(3) .dropdown-menu,
   .MSOADDWGHA:nth-child(4) .dropdown-menu,
@@ -85,9 +88,61 @@
   }
   .dropdown-toggle::after {
     display: none;
+    border: none;
   }
   .navbar-nav .nav-link.active,
   .navbar-nav .nav-link.show {
     color: #fff;
   }
+  .dropdown-menu {
+    height: 0;
+    -webkit-transition: width 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  .dropdown-menu.show {
+    // position: fixed !important;
+    // top: 15.9rem;
+    // left: 35rem;
+    // width: 63.2%;
+    height: auto;
+    -webkit-transition: width 0.5s ease;
+    transition: width 0.5s ease;
+  }
+  .OATEDHUOJP {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .OATEDHUOJP a {
+    margin: 0 25px;
+  }
+  .MSOADDWGHA::before{
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: all 0.5s  ease;
+  }
+  .MSOADDWGHA.show::before{
+    width: 100px;
+    height: 10px;
+  }
+  .nav-link:focus, .nav-link:hover {
+    color: #fff;
+}
+}
+.posFixed {
+  top: 0px;
+  position: fixed;
+  border-radius: 10px;
+  text-align: center;
+  padding: 4px;
+  transition: 0.2s;
+}
+.OIBZIBNYYK{
+  position: absolute;
 }
